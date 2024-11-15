@@ -3,61 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kazi Mahfuzur Rahman's Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CV - Kazi Mahfuzur Rahman</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .left-column {
+            width: 35%;
+            background-color: #007acc;
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .right-column {
+            width: 65%;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 1em;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 1.2em;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 5px;
+        }
+
+        .right-column h2 {
+            color: #007acc;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .right-column .section {
+            margin-bottom: 30px;
+        }
+
+        .right-column p, .right-column ul li {
+            color: #333333;
+        }
+
+        .left-column p, .left-column ul li {
+            color: #e6e6e6;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>
+        <div class="left-column">
+
             <h1>Kazi Mahfuzur Rahman</h1>
-            <p>Freelancer | Aspiring Software Engineer | Flutter Developer</p>
-            <p>Email: <span id="email">kazi.mahfuzur@example.com</span></p>
-        </header>
+            
 
-        <section class="section">
-            <h2>About Me</h2>
-            <p>A seventh-semester BSc student in Computer Science and Engineering at AIUB with a focus on mobile application development using Flutter. I am skilled in C++, Dart, and problem-solving, with experience in competitive programming and building small to medium-sized applications.</p>
-        </section>
+            <div class="section">
+                <h2>Personal Information</h2>
+                <p><strong>Address:</strong> Road 3,Block C,Bashundhara RA</p>
+                <p><strong>Phone:</strong> 01990947348</p>
+                <p><strong>Email:</strong> kmrahman744@gmail.com</p>
+                <p><strong>Linkedin :</strong> bd.linkedin.com/in/kazi-mahfuzur-rahman-840565222</p>
+                <p><strong>Github :</strong> https://github.com/jianbot007 </p>
+                
+                
+            </div>
 
-        <section class="section">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>BSc in Computer Science and Engineering</strong>, AIUB (Expected Graduation: 2026)</li>
-            </ul>
-        </section>
+            <div class="section">
+                <h2>Technical Skills</h2>
+                <p><strong>Language:</strong> C++,Dart,C#,Java,PHP</p>
+                <p><strong>Framework:</strong> Flutter,Swing,.NET</p>
+                <p><strong>Database:</strong> Firebase,Oracle,MySql</p>
+                <p><strong>Technical Skills :</strong> Data Structure,Algorithm,OOP,Agile methodology</p>
+                <p><strong>Problem Solving :</strong> Solved more than 100 Problems using c++ </p>
+                <p><strong>Soft skills :</strong> Leadership,Teamwork,Communication,<br>Punctuality,Time Management</p>
+                
+            </div>
 
-        <section class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Languages: C++, Dart</li>
-                <li>Frameworks: Flutter</li>
-                <li>Tools: Firebase, GitHub, Oracle (Database)</li>
-                <li>Web: HTML, CSS</li>
-                <li>Other: Problem Solving, Competitive Programming</li>
-            </ul>
-        </section>
+            <div class="section">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Bangla - Native</li>
+                    <li>English - Intermediate</li>
+                    <li>Arabic - Basic</li>
+                </ul>
+            <div class="section">
+                    <h2>Extracurricular Activity</h2>
+                <ul>
+                    <li>A member of university english club</li>
+                    <li>Founder of a E-sports news portal</li>
+                    <li>Moderator of a E-sports Team</li>
+                </ul>         
+            </div>
+            <div class="section">
+                <h2>Certifications</h2>
+                <ul><li>Completed Flutter development course from Interactive cares.</li>
+                    <li>Completed English speaking course from Mentors.</li>
+                    <li>Problem solving course from ostad platform.(on going)</li></ul>
+                
+            </div>
+            </div>
 
-        <section class="section">
-            <h2>Experience</h2>
-            <ul>
-                <li>Freelancer</li>
-                <li>Developed several Flutter projects, including a FoodPanda Home Screen, University Management System app, and a To-Do List.</li>
-                <li>Worked on team projects using Java Swing and .NET (C#).</li>
-            </ul>
-        </section>
+            <div class="section">
+                <h2>Hobbies</h2>
+                <p>Reading about Startups,Gaming,Reading Books</p>
+            </div>
+        </div>
 
-        <section class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>NID Management System</strong>: A project aimed at helping Bangladeshi citizens with National Identity Card registration and updates.</li>
-                <li><strong>AIUB Notices App</strong>: A mobile app to display university notices from the AIUB portal.</li>
-            </ul>
-        </section>
+        <div class="right-column">
+            <div class="section">
+                <h2>Career Objective</h2>
+                <p>I am a seventh semester student of Bachelor in Science of Computer Science and Engineering at American International University Bangladesh with competitive programming and mobile application development experiences through flutter,looking for an internship in Cityscape International Ltd.</p>
+            </div>
 
-        <section class="section">
-            <h2>Contact</h2>
-            <p>Email: <span id="email">kazi.mahfuzur@example.com</span></p>
-        </section>
+            <div class="section">
+                <h2>Education</h2>
+
+                
+                <p><strong>SSC in Science</strong></p>
+                <p><strong>Bangladesh Internation School & College,Jeddah</strong></p>
+                <p>Year : 2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Result : GPA 5.0</p>
+                
+                
+                
+                <p><strong>HSC in Science</strong></p>
+                <p><strong>Goverment Proffullo Chandro College,Bagerhat</strong></p>
+                <p>Year : 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Result : GPA 5.0</p>
+               
+                
+                <p><strong>BSc in Computer Science & Engineering</strong></p>
+                <p><strong>American International University Bangladesh</strong></p>
+                <p>Expected Graduation: June,2026</p>
+
+                <p>Relavent Course : Object Oriented Programming 1 & 2,Introduction to Database, Software Engineering</p>
+            </div>
+
+            <div class="section">
+                <h2>Projects</h2>
+                <p><strong><b>Flutter :</b></strong>
+                    <p><b>- NID Management System :</b> Bangladeshi citizen can signup using their Birth Certificate,FaceScan,FingerPrint and make new NID card,Lost NID card remake request and apply for correction of their Information using their smart phones.</p>
+                    <p> - Libary & Database : FaceScan,FingerPrint,Riverpod,Firebase </h>
+                        <br><br>
+                    <p><b>- IFOOD :</b> User can  order food and payment for the food,delivaryman can take the order.User & delivary both can see their location through map</p>
+                    <p> - Libary & Database : Payment SSL,Map,Riverpod,Firebase </h>
+                        <br><br>
+                        <p><b>- University Management :</b> Students can login and submit their assignment,check their grades.Teacher can upload assignment and results</p>
+                        <p> - Libary & Database : Riverpod,Firebase, RTC </h>
+                            <br><br><br>
+                <h2>Academic Projects</h2>
+                <p><strong><b>Java Swing :</b></strong>
+                    <p><b>Local Bus ticket system :</b> Passenger can bought ticket and also pay online.</p>
+                    <br>
+                <p><strong><b>.NET(C#) :</b></strong>
+                    <p><b>Tournament Management system :</b>User can buy match ticket,see points table and enjoy live streaming matches and highlights.Team Manager can submit thier squad and also see their match scheduel.</p>
+                
+            </div>
+
+         
+
+        
+        </div>
     </div>
 </body>
 </html>
